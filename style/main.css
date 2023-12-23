@@ -1,0 +1,59 @@
+@import url("./font.css");
+
+body {
+    /* background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 0%, #FFF 100%); */
+    background-color: #2A3342;
+    
+}
+
+header {
+    padding: 24px 0;
+    margin-bottom: 112px;
+    background-color: #FFF;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1264px;
+    margin: 0 auto;
+}
+
+nav {
+    display: contents;
+}
+
+.menu {
+    font-family: Poppins;
+    color: #2A3342;
+    display: flex;
+    gap: 48px;
+}
+
+.btn {
+    font-family: Poppins;
+    font-weight: 500;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+.btn-login {
+    color: #556987;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+}
+
+.btn-signup {
+    color: #F0FDF4;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 6px;
+    background: #22C55E;
+    box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    padding: 8px 16px;
+}
