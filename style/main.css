@@ -175,7 +175,7 @@ main {
     order: 2;
 }
 
-section {
+.grid {
     order: 3;
     width: 100%;
 
